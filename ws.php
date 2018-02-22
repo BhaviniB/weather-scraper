@@ -1,3 +1,16 @@
+<?php
+if ($_GET['city'])
+{
+	$forcastPage= file_get_contents("https://www.weather-forecast.com/locations/London/forecasts/latest");
+}
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,9 +40,14 @@
   {
 	  margin-top:200px;
 	  text align:center;
-	  
+	  width:450px;
   }
-  
+  input {
+              
+              margin: 20px 0;
+              
+          }
+          
   
   </style>
   
