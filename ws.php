@@ -17,7 +17,18 @@
 }
   
   
-  
+  body
+  {
+	  background:none;
+	  
+	  
+  }
+  .container
+  {
+	  margin-top:200px;
+	  text align:center;
+	  
+  }
   
   
   </style>
@@ -27,7 +38,23 @@
   
   </head>
   <body>
-    <h1>Hello, world!sssssssss</h1>
+      <div class="container">
+      
+          <h1>What's The Weather?</h1>
+          <p> Enter a city. </p>
+		  <form>
+  <fieldset class="form-group">
+    <label for="city">Enter the name of a city.</label>
+    <input type="text" class="form-control" name="city" id="city" placeholder="Eg. London, Tokyo" value = "">
+  </fieldset>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      
+
+		  
+          
+    </div>
 <img src="background.jpeg">
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
